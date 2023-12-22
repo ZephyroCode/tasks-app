@@ -1,0 +1,11 @@
+@import './abstracts/variables.scss';
+
+.title {
+	text-align: center;
+	background: linear-gradient(to top, $color5, darken($color1, $amount: 15));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}

@@ -1,0 +1,22 @@
+@import './abstracts/variables.scss';
+
+html {
+	font-size: 16px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: $color2;
+}
+
+textarea {
+	resize: none;
+}

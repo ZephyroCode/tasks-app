@@ -1,0 +1,14 @@
+@import '../styles/abstracts/variables.scss';
+
+.title {
+	color: $color5;
+	text-align: center;
+}
+
+.tasks {
+	max-width: 85vw;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1em;
+}

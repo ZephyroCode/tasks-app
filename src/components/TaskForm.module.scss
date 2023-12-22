@@ -1,0 +1,52 @@
+@import '../styles/abstracts/variables.scss';
+
+.form {
+	margin: auto;
+	width: 20em;
+	padding: 1.35em;
+	display: flex;
+	flex-direction: column;
+	background-color: $color1;
+	border-radius: $borderRadius;
+	border: $cardBorder;
+}
+
+.label {
+	margin-bottom: 0.35em;
+	font-weight: bold;
+	color: $color5;
+}
+
+.input {
+	margin-bottom: 0.5em;
+	padding: 0.25em 0.4em;
+	background-color: $color2;
+	color: $color6;
+	border-radius: $borderRadius;
+	outline: none;
+	border: 2px solid $color3;
+
+	&:focus {
+		outline: $cardBorder;
+	}
+}
+
+.button {
+	padding: 0.35em;
+	margin-top: 1em;
+	border-radius: $borderRadius;
+	background-color: $color3;
+	cursor: pointer;
+	color: $color6;
+	font-weight: bold;
+	border: 2px solid $color2;
+	transition: $transition;
+
+	&:hover {
+		background-color: $color5;
+	}
+
+	&:focus {
+		outline: 2px solid $color3;
+	}
+}
